@@ -1,0 +1,47 @@
+# Visual Studio Solution and Project Files
+*.sln.ide
+*.suo
+*.user
+*.userprefs
+
+# Build Results
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+*.pdb
+*.dll
+*.exe
+*.cache
+*.vspscc
+*.vssscc
+*.builds
+*.log
+
+# NuGet Packages
+packages/
+*.nupkg
+.nuget/NuGetScratch/
+
+# Visual Studio Code specific files
+.vscode/
+
+# Resharper and other extensions
+*.resharper
+*.dotSettings
+_ReSharper.*/
+
+# Test Results
+TestResults/
+
+# Local settings and temporary files
+*.bak
+*.tmp
+*.vs/
+*.vshost.*
+*.csproj.user
+*.fsproj.user
+*.vbproj.user
+
+# Git related
+.gitattributes
