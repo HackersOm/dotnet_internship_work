@@ -10,7 +10,7 @@ namespace Assignment2
     {
         public static void Main(string[] args)
         {
-            //Program1.Main1(args);
+            Program1.Main1(args);
             //Program2.Main1(args);
             //Program3.Main1(args);
             //Program4.Main1(args);

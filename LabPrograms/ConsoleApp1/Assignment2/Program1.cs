@@ -54,6 +54,36 @@ namespace Assignment2
 
             books.ForEach(x => Console.WriteLine(x));
 
+
+
+            Dictionary<int, string> Attendence = new Dictionary<int, string>()
+            {
+                {1,"Om"},
+                {2,"Sai"},
+                {3,"Ram"},
+                {4,"Samarth"},
+            };
+
+
+            Console.WriteLine("Find student by roll number ");
+            Console.WriteLine("Enter student rollnumber :");
+            val = int.Parse(Console.ReadLine());
+
+            if (Attendence.ContainsKey(val))
+            {
+                Console.WriteLine($"Student found roll : {val} name :{Attendence[val]}");
+            }
+            else
+            {
+                Console.WriteLine("Student not found ");
+            }
+
+             var sorted_attendence = Attendence.OrderBy(x => x.Value);
+
+            foreach (var item in sorted_attendence)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 
