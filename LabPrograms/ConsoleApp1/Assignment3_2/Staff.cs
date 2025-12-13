@@ -30,7 +30,15 @@ namespace Assignment3_2
             staff.Email = Console.ReadLine();
 
             Console.WriteLine("Enter Manger Id ");
-            
+            int val = int.Parse(Console.ReadLine());
+            if(Program.FindManagerById(val) != null){
+                staff.ManagerId = val;
+            }
+            else
+            {
+                Console.WriteLine("Manager Not Present !!!");
+                return null;
+            }
             return staff;
 
         }

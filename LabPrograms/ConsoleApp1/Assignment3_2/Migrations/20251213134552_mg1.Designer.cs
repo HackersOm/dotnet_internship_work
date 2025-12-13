@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Assignment3_2.Migrations
 {
-    [DbContext(typeof(sbContext))]
+    [DbContext(typeof(SbContext))]
     [Migration("20251213134552_mg1")]
     partial class mg1
     {

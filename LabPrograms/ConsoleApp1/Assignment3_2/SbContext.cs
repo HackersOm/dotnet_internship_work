@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Assignment3_2
 {
-    internal class sbContext:DbContext
+    internal class SbContext:DbContext
     {
-        DbSet<Manager> Managers {  get; set; }
-        DbSet<Staff> Staffs { get; set; }
-        DbSet<TaskItem> TaskItems { get; set; }
+        public DbSet<Manager> Managers {  get; set; }
+        public DbSet<Staff> Staffs { get; set; }
+        public DbSet<TaskItem> TaskItems { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
